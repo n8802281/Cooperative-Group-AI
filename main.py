@@ -329,9 +329,9 @@ class GameEnvironment:
             self.RemainingTurn = max(0, self.RemainingTurn - 1)
             
             if self.RemainingTurn == 0:
-                if show_game_over_screen(self.point):  # 顯示結束畫面，玩家選擇是否重試
+                if show_game_over_screen(self.point):
                     self.reset_game()
-                    continue  # 重新開始迴圈，遊戲重啟
+                    continue
                 else:
                     break
             update_screen(self.grid, self.player_pos, self.npc_positions, self.npc_clusters, self.enemy_delay, self.modify_cooldown, self.clear_cooldown, self.point, self.RemainingTurn)
