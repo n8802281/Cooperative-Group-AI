@@ -33,9 +33,6 @@ MODIFY_KEYS = {
 }
 
 def init_pygame():
-    """
-    初始化 Pygame 設置，包括字體與顯示視窗。
-    """
     pygame.font.init()
     font = pygame.font.Font(None, 36)
     os.environ["SDL_AUDIODRIVER"] = "dummy"
