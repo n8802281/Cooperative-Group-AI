@@ -75,7 +75,6 @@ Terrain is dynamically modified during gameplay by both the player and AI, and i
 ```bash
 pip install pygame
 ```
-
 ### Run the game
 
 ```bash
@@ -111,5 +110,3 @@ Inspired by the [GDC talk “Death Stranding: An AI Postmortem”](https://youtu
 
 - Designed to illustrate **multi-agent strategy**, **terrain adaptation**, and **asynchronous role control**.
 ```
-
----
