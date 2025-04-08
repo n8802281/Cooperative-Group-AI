@@ -22,11 +22,9 @@ def astar_search(grid, start, goal):
                 heapq.heappush(open_set, (f_score[neighbor], neighbor))
     return []
 
-# 曼哈頓距離作為啟發式函數
 def heuristic(a, b):
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
 
-# 取得相鄰節點
 def get_neighbors(grid, node):
     x, y = node
     neighbors = []
@@ -36,12 +34,10 @@ def get_neighbors(grid, node):
             neighbors.append((nx, ny))
     return neighbors
 
-# 計算不同地形的通行成本
 def get_terrain_cost(grid, pos):
     terrain_weights = {"empty": 1, "mud": 2, "water": 3, "wall": float("inf")}
     return terrain_weights.get(grid[pos[0]][pos[1]], 1)
 
-# 重建最短路徑
 def reconstruct_path(came_from, current):
     path = []
     while current in came_from:
