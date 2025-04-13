@@ -2,7 +2,7 @@
 A tactical multi-agent simulation game using K-Means clustering and Cooperative A* pathfinding.
 
 ```markdown
-# Strategic Pursuit AI Project
+# Cooperative Group AI Project
 
 A tactical multi-agent simulation game using K-Means clustering and Cooperative A* pathfinding.
 
@@ -10,7 +10,7 @@ A tactical multi-agent simulation game using K-Means clustering and Cooperative 
 
 ## 🧩 Overview
 
-**Strategic Pursuit AI Project** is a prototype simulation game built with Python and Pygame that demonstrates multi-agent coordination for real-time strategic pursuit. The player (a green block) must avoid being caught by AI agents dynamically assigned one of three roles: **Chaser**, **Blocker**, or **Helper**.
+**Cooperative Group AI Project** is a prototype simulation game built with Python and Pygame that demonstrates multi-agent coordination for real-time strategic pursuit. The player (a green block) must avoid being caught by AI agents dynamically assigned one of three roles: **Chaser**, **Blocker**, or **Helper**.
 
 Roles are reassigned at fixed intervals or when an agent respawns, using **K-Means clustering** based on agent spatial distribution. Agents use **Cooperative A\*** for pathfinding to avoid collisions and coordinate effectively.
 
