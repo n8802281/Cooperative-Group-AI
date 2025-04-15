@@ -1,11 +1,6 @@
 # Cooperative Group AI Project
 A tactical multi-agent simulation game using K-Means clustering and Cooperative A* pathfinding.
 
-```markdown
-# Cooperative Group AI Project
-
-A tactical multi-agent simulation game using K-Means clustering and Cooperative A* pathfinding.
-
 ---
 
 ## 🧩 Overview
